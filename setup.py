@@ -3,15 +3,9 @@ import setuptools
 
 
 long_description = '''
-Texar is an open-source toolkit based on TensorFlow,
-aiming to support a broad set of machine learning especially text generation
-tasks, such as machine translation, dialog, summarization, content manipulation,
-language modeling, and so on.
-
-Texar is designed for both researchers and practitioners for fast prototyping
-and experimentation. Checkout https://github.com/asyml/texar-pytorch for the
-PyTorch version which has the same functionalities and (mostly) the same
-interfaces.
+FT-RoboCode is an algorithm designed for hybrid classical-quantum text 
+encoding into numerical values which are converted into binaries for 
+constructing quantum circuits
 '''
 
 if sys.version_info < (3, 6):

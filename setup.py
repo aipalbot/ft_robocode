@@ -18,11 +18,11 @@ if sys.version_info < (3, 6):
     sys.exit('Python>=3.6 is required by Texar.')
 
 setuptools.setup(
-    name="texar",
+    name="ft_robocode",
     version="0.2.4",
-    url="https://github.com/asyml/texar",
+    url="https://github.com/aipalbot/ft_robocode",
 
-    description="Toolkit for Machine Learning and Text Generation",
+    description="Toolkit for Femi-Transform encoding algorithm",
     long_description=long_description,
     license='Apache License Version 2.0',
 
@@ -39,18 +39,8 @@ setuptools.setup(
         'sentencepiece>=0.1.8',
         'packaging'
     ],
-    extras_require={
-        'tensorflow-cpu': [
-            'tensorflow>=1.10.0,<2.0',
-            'tensorflow-probability>=0.3.0,<0.8.0'
-        ],
-        'tensorflow-gpu': [
-            'tensorflow-gpu>=1.10.0,<2.0',
-            'tensorflow-probability>=0.3.0,<0.8.0'
-        ]
-    },
     package_data={
-        "texar": [
+        "ft_robocode": [
             "../bin/utils/multi-bleu.perl",
         ]
     },
